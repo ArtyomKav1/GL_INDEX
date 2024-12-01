@@ -1,0 +1,127 @@
+
+
+.preloader{
+   position: absolute;
+   left: 10%;
+   top: 0%;
+   z-index: 100;
+}
+
+
+
+
+
+
+
+
+.global__wrapper{
+   overflow-y: scroll;
+   max-height: 74vh;
+   position: relative;
+
+}
+.global__wrapper::-webkit-scrollbar{
+   width: 7px;               /* ширина scrollbar */
+}
+.global__wrapper::-webkit-scrollbar-track{
+   background: rgb(255, 255, 255);        /* цвет дорожки */
+   /* border-radius: 20px;       закругления плашки */
+   border: 1px solid rgb(0, 0, 0);  /* padding вокруг плашки */
+}
+.global__wrapper::-webkit-scrollbar-thumb{
+   background-color: rgba(28, 122, 210, 0.37);    /* цвет плашки */
+  /* border-radius: 20px;       закругления плашки */
+  /* border: 1px solid rgb(0, 0, 0);  padding вокруг плашки */
+}
+.selectedPage {
+   color: red;
+   font-size: 45px;
+}
+
+
+
+
+.page span{
+   font-weight: 100;
+   font-size: 35px;
+   margin-right: 5px;
+   border: 1px solid white;
+   padding: 2px;
+
+}
+.page {
+   margin-top: 10px;
+   /* margin-left: 380px; */
+}
+.mainPage{
+   display: flex;
+   justify-content:center;
+/* width: 600px; */
+}
+
+
+
+
+
+.user__items__wrapper__global{
+   display: flex;
+   flex-wrap:wrap;
+   justify-content:center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.userPhoto {
+   width: 100px;
+   height: 100px;
+   border-radius: 10px;
+}
+.user__items__wrapper{
+   overflow: hidden;
+   display: flex;
+   margin-top: 30px;
+   border-bottom: 1px solid black;
+   width: 500px;
+   margin: 20px;
+   position: relative;
+   align-items:center
+
+}
+.user__info{
+   font-weight: 400;
+   font-size: 17px;
+   margin: 0px 20px;
+}
+.btn{
+   position: absolute;
+   display: inline-block;
+   cursor: pointer;
+   outline: none;
+   text-decoration: none;
+   font-size: 14px;
+   vertical-align: middle;
+   color: rgb(255 255 255);
+   text-align: center;
+   border-radius: 4px;
+   background-color: #0093f5;
+   line-height: 22px;
+   height: 40px;
+   padding: 10px 20px;
+   box-sizing: border-box;
+   border: none;
+   margin: 10px 0;
+   transition: background-color 0.2s;
+   text-transform: uppercase;
+   right: 10px;
+   top: -7px;
+}
+

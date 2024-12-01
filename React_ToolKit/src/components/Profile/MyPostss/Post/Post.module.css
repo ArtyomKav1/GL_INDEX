@@ -1,0 +1,62 @@
+.item {
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+
+    justify-content:space-between;
+      /* background-color: aqua; */
+      /* border: 1px solid black; */
+      border-radius: 50px;
+      width: 100%;
+      max-width: 700px;
+  }
+  
+  .item img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .message{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .delete{
+    font-size: 20px;
+    color: red;
+
+}
+.phot__mes{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.like__delete{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  /* background-color: blue; */
+}
+.delete{
+  padding: 10px;
+  /* background-color: brown; */
+}
+.like__dislike{
+  margin-right: 20px;
+}
+
+.like{
+margin-right: 10px;
+/* background-color: blueviolet; */
+padding: 5px;
+}
+.dislike{
+margin-left: 10px;
+/* background-color: aqua; */
+padding: 5px;
+}

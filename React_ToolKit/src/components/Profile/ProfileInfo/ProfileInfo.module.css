@@ -1,0 +1,105 @@
+
+.profile__photos img{
+    border-radius: 25px;
+}
+.global__wrapper{
+    padding: 40px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: flex-start;
+}
+@media (max-width: 1056px) {
+    .global__wrapper{
+        flex-direction:column;
+        justify-content: center;
+    }
+}
+
+.left__wrapper{
+    /* background-color: aquamarine; */
+    /* width: 100%; */
+    position: relative;
+}
+.status{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 15px;
+    position: relative;
+    left: 70px; */
+}
+
+
+
+.right__wrapper{
+    /* background-color: burlywood; */
+    margin: 20px;
+    width: 100%;
+}
+
+
+
+.form__wrapper input{
+    transition: all 0.2s;
+    margin-bottom: 5px;
+    font-size: 20px;
+    /* border-radius: 10px; */
+    
+}
+
+
+.form__wrapper{
+    transition: all 0.2s;
+    font-size: 20px;
+    position: relative;
+
+    transform-style: preserve-3d;
+    
+}
+.ProfileData{
+    transition: all 0.2s;
+
+} 
+.ProfileDataForm{
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+    transition: all 1.5s;
+    opacity: 0;
+    top: -50px;
+    right: -80%;
+    transform: rotateY(90deg);
+
+
+
+}
+.ProfileDataFormActive{
+    transition: all 1.5s;
+    opacity: 1;
+    top: -50px;
+    right: 0;
+    transform: rotateY(0deg);
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

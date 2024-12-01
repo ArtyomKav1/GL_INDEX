@@ -1,0 +1,134 @@
+
+
+
+
+@mixin button-reset {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+
+олр
+
+
+.global__block{
+    transition: all 1.5s;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    justify-content: center;
+    .left__block{
+        margin: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center */
+
+        margin-top: 60px;
+        input{
+            all: unset;
+            border: 1px solid rgb(255, 255, 255);
+            margin-bottom: 2px;
+            &::placeholder{
+                color: white;
+                font-weight: 200;
+                
+            } 
+            &:-webkit-autofill,
+            &:-webkit-autofill:focus {
+                transition: background-color 0s 600000s, color 0s 600000s !important;
+                background-color: transparent;
+            }
+            font-weight: 200;
+            color: white;
+            border-color: white;
+        }
+        .lookingForAJob{
+            margin-bottom: 5px;
+            position: relative;
+            input{
+                position: absolute;
+                top: 5px;
+                right: 15px;
+                width: 10px;
+                height: 10px;
+                &:checked{
+                    background-color: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
+    .right__block{
+        margin: 0px 20px;
+        .right__block__item input{
+            all: unset;
+            border: 1px solid rgb(255, 255, 255);
+            margin-bottom: 2px;
+            &::placeholder{
+                color: white;
+                font-weight: 200;
+                
+            } 
+            &:-webkit-autofill,
+            &:-webkit-autofill:focus {
+                transition: background-color 0s 600000s, color 0s 600000s !important;
+                background-color: transparent;
+            }
+            font-weight: 200;
+            color: white;
+            border-color: white;
+        }
+    }
+
+}
+
+
+.error{
+    color: red;
+}
+.input{
+    margin-top: 5px;
+}
+
+
+
+
+.btn{
+    @include button-reset;
+    font-weight: 100;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+.info__text{
+    transition: all 1s ease;
+
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    div{
+        margin-top: 5px;
+        
+    }
+    .list{
+        overflow: hidden;
+        height: 0px;
+        transition: all 1s ease;
+
+    }
+    .listActive{
+        height: 210px;
+    }
+
+}

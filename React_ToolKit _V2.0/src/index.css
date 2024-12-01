@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+
+
+
+
+
+
+
+.preloader-enter {
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+.preloader-enter-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 1300ms, transform 1300ms;
+
+}
+
+.preloader-exit {
+  opacity: 0;
+  transform: translateY(100%);
+
+}
+
+.preloader-exit-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1300ms, transform 1300ms;
+
+  /* animation: preloader 25s infinite ease; */
+}
+
+
+
+@keyframes preloader{
+  0%{
+     transform: rotate(0deg);
+  }
+  100%{
+     transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+.main-enter {
+  opacity: 1;
+  transform: translateY(0);
+  /* background-color: green; */
+}
+
+.main-enter-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 1300ms, transform 1300ms;
+  /* background-color: green; */
+} 
+
+.main-exit {
+  opacity: 0;
+  transform: translateY(100%);
+
+}
+
+.main-exit-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1300ms, transform 1300ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+
+}
+
+.error-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1300ms, transform 1300ms;
+
+} 
+
+.error-exit {
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+.error-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 1300ms, transform 1300ms;
+}
+
+
+.formProfile-enter {
+  opacity: 1;
+  transform: translateY(0);
+  /* background-color: green; */
+}
+
+.formProfile-enter-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 1300ms, transform 1300ms;
+  /* background-color: green; */
+} 
+
+.formProfile-exit {
+  opacity: 0;
+  transform: translateY(100%);
+
+}
+
+.formProfile-exit-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1300ms, transform 1300ms;
+}

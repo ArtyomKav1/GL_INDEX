@@ -1,0 +1,66 @@
+.postsBlock {
+    transition: all 1s;
+    padding: 10px;
+    .title{
+        text-align: center;
+        color: white;
+        font-weight: 200;
+        font-size: 25px;
+    }
+    .posts {
+        margin-top: 10px;
+    }
+    
+}
+@mixin button-reset {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+
+.BTN__submit{
+
+    @include button-reset;
+    margin-top: 7px;
+    padding: 3px;
+    font-weight: 200;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+}
+.input__form__wrapper{
+    transition: all 1s;
+    display: flex;
+    align-items: center;
+    .input__form{
+        all: unset;
+    
+        &::placeholder{
+            color: white;
+            font-weight: 200;
+            
+        } 
+        &:-webkit-autofill,
+        &:-webkit-autofill:focus {
+            transition: background-color 0s 600000s, color 0s 600000s !important;
+            background-color: transparent;
+        }
+        font-weight: 200;
+        color: white;
+        border-color: white;
+        
+        // background-color: transparent;
+        // border: none;
+    
+    }
+    .error{
+        color: red;
+        font-weight: 200;
+        transition: all 1s;
+
+    }
+}

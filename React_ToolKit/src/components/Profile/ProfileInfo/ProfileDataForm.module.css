@@ -1,0 +1,24 @@
+.global__block{
+    transition: all 1.5s;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.left__block{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center */
+
+    margin-top: 60px;
+}
+.right__block{
+    margin: 0px 20px;
+}
+.error{
+    color: red;
+}
+.input{
+    margin-top: 5px;
+}

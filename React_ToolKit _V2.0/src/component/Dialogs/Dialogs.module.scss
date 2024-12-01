@@ -1,0 +1,38 @@
+.global__wrapper{
+    display: flex;
+    /* background-color: aquamarine; */
+    margin: 5px;
+
+}
+
+
+
+
+
+
+.dialogs__wrapper{
+    /* background-color: bisque; */
+    width: 20%;
+    height: 100%;
+
+
+}
+.dialogs__items{
+    border: 1px solid black;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    width: 100%;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+
+.message__wrapper{
+    width: 80%;
+    /* background-color: blue; */
+    height: 70vh;
+    
+}
